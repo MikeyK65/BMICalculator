@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI_Calculator.MainPage"
+             BackgroundColor="#181818">
+
+
+    <VerticalStackLayout VerticalOptions="Center" Spacing="25" Margin="10, 0, 0, 0">
+        <Label Text="BMI Calculator" TextColor="#cccccc" HorizontalTextAlignment="Center" FontSize="30"></Label>
+        <Entry BackgroundColor="#2A2A2A" Placeholder="Weight in Kg" PlaceholderColor="#7c7c7c" TextColor="#CCCCCC" x:Name="Weight" Keyboard="Numeric"></Entry>
+        <Entry BackgroundColor="#2A2A2A" Placeholder="Height in cm" PlaceholderColor="#7c7c7c" TextColor="#CCCCCC" x:Name="Height" Keyboard="Numeric"></Entry>
+        <Entry BackgroundColor="#2A2A2A" Placeholder="Your BMI" PlaceholderColor="#7c7c7c" TextColor="#CCCCCC" x:Name="BMI" IsEnabled="False"></Entry>
+        <Button Text="Calculate" BackgroundColor="#0078D4" TextColor="White" Clicked="CalculateButton_Clicked" x:Name="CalculateButton"></Button>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+E:\src\dotNet\MAUI\BMI Calculator\BMI Calculator.csproj;x64
